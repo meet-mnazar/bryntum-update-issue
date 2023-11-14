@@ -48,7 +48,7 @@ const App: FunctionComponent = () => {
         calendarInstance?.eventStore.removeAll();
         calendarInstance?.resourceStore.removeAll();
     
-        calendarInstance.eventStore.data = events
+        calendarInstance?.eventStore.add(events)
         calendarInstance?.resourceStore.add(resources);
     }
 
