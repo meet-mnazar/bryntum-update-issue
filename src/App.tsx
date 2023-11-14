@@ -55,7 +55,7 @@ const App: FunctionComponent = () => {
     return (
         <Fragment>
             
-            <button onClick={() => setResourceId(id => id === 3 ? 1 : id + 1)}>Change from {resourceId}</button>
+            <button onClick={() => setResourceId(id => id === 3 ? 1 : id + 1)}>Toggle resources and events</button>
             <BryntumCalendar
                 ref = {calendarRef}
                 {...calendarConfig}
